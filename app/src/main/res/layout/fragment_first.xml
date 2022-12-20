@@ -3,17 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FirstFragment"
     android:gravity="center"
-    >
+    tools:context=".fragments.FirstFragment">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
         android:gravity="center"
-        android:textColor="@color/black"
         android:text="@string/first_fragment"
-        />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
 
 
 </LinearLayout>

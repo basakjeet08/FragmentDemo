@@ -3,23 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.SecondFragment"
+    android:gravity="center"
     android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".fragments.SecondFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
         android:gravity="center"
-        android:textColor="@color/black"
         android:text="@string/second_fragment"
-        />
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
     <Button
         android:id="@+id/btn4thFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_4th_fragment"
-        />
+        android:text="@string/_4th_fragment" />
 
 </LinearLayout>
