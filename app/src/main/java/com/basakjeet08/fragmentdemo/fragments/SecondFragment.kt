@@ -14,15 +14,15 @@ class SecondFragment : Fragment() {
     //Initializing the Binding variable
     private lateinit var binding: FragmentSecondBinding
 
-    //Initializing the navController object of this Fragment
-    private val navController = findNavController()
-
    override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentSecondBinding.inflate(inflater , container , false)
+
+       //Initializing the navController object of this Fragment
+       val navController = findNavController()
 
        //Setting the OnClickListener to navigate to the Next Fragment
        binding.btn4thFragment.setOnClickListener{
